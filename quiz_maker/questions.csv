@@ -1,2 +1,5 @@
 Chapter,Question,Options,Correct
-"Unit 0 - SAP Cloud Overview","What?","A,B,C,D","1,0,0,0"
+"Unit 0 - SAP Cloud Overview","What type of cloud apps does SAP provide?","SaaS,PaaS,IaaS,BaaS","1,1,1,0"
+"Unit 0 - SAP Cloud Overview","The major benefits of cloud include:","Elasticity: Scale up or down quickly to meet computing demand,Affordability: Only pay for what you use, and minimize hardware and IT costs,Availability: Get 24/7 cloud system access from anywhere,Simplicity: Free IT from managing servers and updating software","1,1,1,1"
+"Unit 0 - SAP Cloud Overview","What does the cloud computing do?","Gives a possibility to access data, apps and services over the Internet,Eliminates the need for costly hardware,Eliminates the need to perform software updates,Eliminates the need to perform system updates","1,1,0,0"
+"Unit 1 - Introduction to SAP Cloud Platform Integration","Maybe A?","A,B,C,D","1,0,0,0"
