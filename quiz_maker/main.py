@@ -63,7 +63,12 @@ config_win.geometry(f'{config_win.winfo_width() + 70}x{config_win.winfo_height()
 
 # Function to update the question
 def update_question():
-    global current_question, correct_answers, user_answers
+    global current_question, correct_answers, user_answers, options_buttons
+
+    # Clear old answer options if they exist
+    for button in options_buttons:
+        button.destroy()
+
     question_var.set(df.loc[current_question, 'Question'])
     correct_answers = [int(ans) for ans in df.loc[current_question, 'Correct'].split(',')]
     user_answers = [tk.IntVar() for _ in correct_answers]
@@ -71,10 +76,17 @@ def update_question():
     answers_options = list(zip(correct_answers, options, user_answers))
     random.shuffle(answers_options)
     correct_answers, options, user_answers = zip(*answers_options)
+
+    options_buttons = []
     for i, option in enumerate(options):
-        options_vars[i].set(option)
-        options_buttons[i].config(bg='SystemButtonFace', variable=user_answers[i])
-        options_buttons[i].grid(row=i + 2, column=0, sticky='w')
+        var = tk.StringVar(value=option)
+        btn = tk.Checkbutton(root, textvariable=var, variable=user_answers[i])
+        btn.grid(row=i + 2, column=0, sticky='w')
+        options_buttons.append(btn)
+
+    # Update the position of Submit and Quit buttons according to the number of answer options
+    submit_button.grid(row=len(options) + 2, column=0)
+    quit_button.grid(row=len(options) + 2, column=1)
 
 
 # Initialize the widgets for the main window
@@ -82,12 +94,10 @@ question_var = tk.StringVar()
 question_label = tk.Label(root, textvariable=question_var)
 question_label.grid(row=0, column=0, sticky='w')
 
-options_vars = [tk.StringVar() for _ in range(4)]
-options_buttons = [tk.Checkbutton(root, textvariable=var) for var in options_vars]
+options_buttons = []
 
 submit_var = tk.StringVar(value='Submit')
 submit_button = tk.Button(root, textvariable=submit_var)
-
 
 # Function to select the next question
 def get_next_question():
@@ -125,7 +135,6 @@ def start_quiz():
 start_button = tk.Button(config_win, text='Start the quiz', command=start_quiz)
 start_button.pack()
 
-
 # Function to reset the progress
 def reset_progress():
     global progress
@@ -140,8 +149,6 @@ reset_button.pack()
 
 # Add the submit and quit buttons to the main window
 quit_button = tk.Button(root, text='Quit', command=quit_quiz)
-submit_button.grid(row=6, column=0)
-quit_button.grid(row=6, column=1)
 
 root.update()
 root.geometry(f'{root.winfo_width() + 70}x{root.winfo_height() + 70}')
@@ -177,9 +184,6 @@ def submit():
     correct = all((user_ans == correct_ans for user_ans, correct_ans in zip(answers, correct_answers)))
     if correct:
         progress[current_question]['correct'] += 1
-
-
-
     else:
         progress[current_question]['correct'] = 0
     for i, option in enumerate(options_buttons):
