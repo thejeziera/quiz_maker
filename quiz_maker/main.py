@@ -53,7 +53,7 @@ try:
         progress = pickle.load(file)
 except FileNotFoundError:
     if df is not None:
-        progress = {i: {'correct': 0} for i in range(len(df))}
+        progress = {i: {'correct': 0, 'wrong': 0} for i in range(len(df))}
 
 # Adjust the window size
 config_win.update()
@@ -138,7 +138,7 @@ start_button.pack()
 # Function to reset the progress
 def reset_progress():
     global progress
-    progress = {i: {'correct': 0} for i in range(len(df))}
+    progress = {i: {'correct': 0, 'wrong': 0} for i in range(len(df))}
     if os.path.exists('progress.pickle'):
         os.remove('progress.pickle')
     messagebox.showinfo('Progress reset', 'Progress has been reset successfully.')
@@ -162,14 +162,14 @@ def submit():
         if current_question is None:
             total_questions = len([i for i in range(len(df)) if progress[i]['correct'] >= correct_threshold])
             correct_ans_stats = sum(progress[i]['correct'] for i in range(len(df)))
-            wrong_answers = total_questions * correct_threshold - correct_ans_stats
+            wrong_answers = sum(progress[i]['wrong'] for i in range(len(df)))
             stats_win = tk.Toplevel(root)
             stats_win.title("Quiz Maker - Statistics")
             stats_win.geometry(f'{stats_win.winfo_width() + 240}x{stats_win.winfo_height() + 130}+'
                                f'{root.winfo_x()}+{root.winfo_y()}')
             stats_label = tk.Label(stats_win, text='Quiz statistics:\n'
-                                                   f'Total questions: {total_questions}\n'
-                                                   f'Questions learned correctly: {correct_ans_stats}\n'
+                                                   f'Total questions learned: {total_questions}\n'
+                                                   f'Answers submitted correctly: {correct_ans_stats}\n'
                                                    f'Total mistakes made: {wrong_answers}\n'
                                                    f'You have learned all the questions.')
             stats_label.pack()
@@ -186,6 +186,7 @@ def submit():
         progress[current_question]['correct'] += 1
     else:
         progress[current_question]['correct'] = 0
+        progress[current_question]['wrong'] += 1
     for i, option in enumerate(options_buttons):
         if answers[i] and correct_answers[i] == 1:
             option.config(bg='green')
