@@ -196,7 +196,6 @@ def submit():
             option.config(bg='yellow')
     submit_var.set('Next')
 
-
 submit_button.config(command=submit)
 
 root.mainloop()
