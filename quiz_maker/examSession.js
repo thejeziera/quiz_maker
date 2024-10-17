@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (question.type === 'radio') {
                 // For radio, directly compare the selected answer's value to the correct answer
                 const correctIndex = question.answers.findIndex(a => a.correct);
-                return acc + (answer == correctIndex ? 1 : 0); // Using == for comparison since answer might be string
+                return acc + (answer === correctIndex ? 1 : 0); // Using == for comparison since answer might be string
             } else if (question.type === 'checkbox') {
                 // Checkbox answer comparison
                 const correct = question.answers.filter(a => a.correct).map((_, i) => String(i));

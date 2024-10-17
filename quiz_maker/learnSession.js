@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	function getAnswerInputHTML(question, shuffledAnswers) {
 		let html = '';
 		if (question.type === 'radio' || question.type === 'checkbox') {
-			shuffledAnswers.forEach((answer, index) => {
+			shuffledAnswers.forEach((answer) => {
 				// Use the index from the original question.answers array to preserve answer identity
 				const originalIndex = question.answers.findIndex(a => a.text === answer.text);
 				html += `<label><input type="${question.type}" name="answer${question.id}" value="${originalIndex}"> ${answer.text}</label><br>`;

@@ -13,7 +13,7 @@
 ## Getting Started
 
 ### For Users
-If you just want to use **Quiz Manager** without modifying the code, please visit the [latest release](https://github.com/thejeziera/quiz-manager/releases) and download the zip file. Extract it and open `index.html` in your browser to start using Quiz Manager.
+If you just want to use **Quiz Manager** without modifying the code, please visit the [latest release](https://github.com/thejeziera/quiz_maker/releases) and download the zip file. Extract it and open `index.html` in your browser to start using Quiz Manager.
 
 ### For Developers
 To get started with **Quiz Manager**, follow these steps:
