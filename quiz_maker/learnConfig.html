@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn - Quiz Configuration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Learn - Quiz Configuration</h2>
+        <form id="learnConfigForm">
+            <div class="input-group">
+                <label for="quizFile">Upload Quiz File:</label>
+                <input type="file" id="quizFile" name="quizFile" accept=".json">
+            </div>
+            <div class="input-group">
+                <label for="numRepetitions">Number of Repetitions:</label>
+                <input type="number" id="numRepetitions" name="numRepetitions" min="1" value="3">
+            </div>
+            <div class="input-group">
+                <label for="additionalRepsOnError">Additional Repetitions on Error:</label>
+                <input type="number" id="additionalRepsOnError" name="additionalRepsOnError" min="0" value="1">
+            </div>
+            <button type="button" onclick="goBack()">Back</button>
+            <button type="submit">Begin</button>
+        </form>
+    </div>
+    <script src="learnConfig.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{
+	"title": "ExampleTest",
+	"questions": [
+		{
+			"text": "Type 3",
+			"type": "text",
+			"answers": [],
+			"answer": "3"
+		},
+		{
+			"text": "Select 1 & 2",
+			"type": "checkbox",
+			"answers": [
+				{
+					"text": "1",
+					"correct": true
+				},
+				{
+					"text": "2",
+					"correct": true
+				},
+				{
+					"text": "3",
+					"correct": false
+				},
+				{
+					"text": "4",
+					"correct": false
+				}
+			]
+		},
+		{
+			"text": "Select 1 & 2",
+			"type": "checkbox",
+			"answers": [
+				{
+					"text": "1",
+					"correct": true
+				},
+				{
+					"text": "2",
+					"correct": true
+				},
+				{
+					"text": "3",
+					"correct": false
+				}
+			]
+		},
+		{
+			"text": "Select 1 & 2",
+			"type": "checkbox",
+			"answers": [
+				{
+					"text": "1",
+					"correct": true
+				},
+				{
+					"text": "2",
+					"correct": true
+				},
+				{
+					"text": "3",
+					"correct": false
+				},
+				{
+					"text": "4",
+					"correct": false
+				},
+				{
+					"text": "5",
+					"correct": false
+				}
+			]
+		},
+		{
+			"text": "Pick 4",
+			"type": "radio",
+			"answers": [
+				{
+					"text": "1",
+					"correct": false
+				},
+				{
+					"text": "2",
+					"correct": false
+				},
+				{
+					"text": "3",
+					"correct": false
+				},
+				{
+					"text": "4",
+					"correct": true
+				}
+			]
+		},
+		{
+			"text": "Pick 4",
+			"type": "radio",
+			"answers": [
+				{
+					"text": "2",
+					"correct": false
+				},
+				{
+					"text": "3",
+					"correct": false
+				},
+				{
+					"text": "4",
+					"correct": true
+				}
+			]
+		},
+		{
+			"text": "Pick 4",
+			"type": "radio",
+			"answers": [
+				{
+					"text": "1",
+					"correct": false
+				},
+				{
+					"text": "2",
+					"correct": false
+				},
+				{
+					"text": "3",
+					"correct": false
+				},
+				{
+					"text": "4",
+					"correct": true
+				},
+				{
+					"text": "5",
+					"correct": false
+				}
+			]
+		}
+	]
+}
