@@ -33,6 +33,7 @@ public/
 *.sublime-workspace
 .idea/                   # WebStorm/IntelliJ specific files
 .vscode/                 # VSCode specific files
+/.idea/
 
 # Thumbnails and caches
 Thumbs.db
@@ -59,11 +60,10 @@ coverage/
 *.pid                    # Process ID files
 
 # Compiled files
-*.min.js
-*.min.css
 *.compiled.css
 
 # Files specific to npm/yarn
 .pnpm-debug.log
 yarn.lock
 package-lock.json        # If using npm and not committing lock files
+

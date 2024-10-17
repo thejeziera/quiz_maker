@@ -1,0 +1,240 @@
+{
+  "title": "Python Basics Quiz",
+  "questions": [
+    {
+      "text": "What is the correct file extension for Python files?",
+      "type": "radio",
+      "answers": [
+        { "text": ".py", "correct": true },
+        { "text": ".python", "correct": false },
+        { "text": ".pt", "correct": false },
+        { "text": ".p", "correct": false }
+      ]
+    },
+    {
+      "text": "Which data type is used to store text in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "str", "correct": true },
+        { "text": "int", "correct": false },
+        { "text": "float", "correct": false },
+        { "text": "bool", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you create a variable with the value 5 in Python?",
+      "type": "text",
+      "answer": "x = 5"
+    },
+    {
+      "text": "Which of the following is used to create a comment in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "# This is a comment", "correct": true },
+        { "text": "// This is a comment", "correct": false },
+        { "text": "/* This is a comment */", "correct": false },
+        { "text": "-- This is a comment", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all valid Python data types:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "list", "correct": true },
+        { "text": "dict", "correct": true },
+        { "text": "array", "correct": false },
+        { "text": "tuple", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the output of the following code?\nprint(3 + 4 * 2)",
+      "type": "text",
+      "answer": "11"
+    },
+    {
+      "text": "How do you create a function in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "def my_function():", "correct": true },
+        { "text": "function my_function()", "correct": false },
+        { "text": "create my_function()", "correct": false },
+        { "text": "func my_function()", "correct": false }
+      ]
+    },
+    {
+      "text": "Which keyword is used to define a loop that continues until a condition is false?",
+      "type": "radio",
+      "answers": [
+        { "text": "while", "correct": true },
+        { "text": "for", "correct": false },
+        { "text": "loop", "correct": false },
+        { "text": "repeat", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the keywords used to handle exceptions in Python:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "try", "correct": true },
+        { "text": "catch", "correct": false },
+        { "text": "except", "correct": true },
+        { "text": "finally", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the output of the following code?\nx = [1, 2, 3]\nprint(len(x))",
+      "type": "text",
+      "answer": "3"
+    },
+    {
+      "text": "Which method can be used to convert a string to lowercase in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "lower()", "correct": true },
+        { "text": "tolower()", "correct": false },
+        { "text": "downcase()", "correct": false },
+        { "text": "strlower()", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you add an element to a list in Python?",
+      "type": "text",
+      "answer": "list.append(element)"
+    },
+    {
+      "text": "Which of these is a valid conditional statement in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "if x > 5:", "correct": true },
+        { "text": "if (x > 5)", "correct": false },
+        { "text": "if x > 5 then", "correct": false },
+        { "text": "if x gt 5", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all mutable data types in Python:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "list", "correct": true },
+        { "text": "tuple", "correct": false },
+        { "text": "dict", "correct": true },
+        { "text": "set", "correct": true }
+      ]
+    },
+    {
+      "text": "What will be the output of the following code?\nprint(5 == 5)",
+      "type": "text",
+      "answer": "True"
+    },
+    {
+      "text": "Which of these statements is used to exit a loop prematurely?",
+      "type": "radio",
+      "answers": [
+        { "text": "break", "correct": true },
+        { "text": "continue", "correct": false },
+        { "text": "stop", "correct": false },
+        { "text": "exit", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you create an empty dictionary in Python?",
+      "type": "text",
+      "answer": "{}"
+    },
+    {
+      "text": "Which keyword is used to check if a value is present in a list?",
+      "type": "radio",
+      "answers": [
+        { "text": "in", "correct": true },
+        { "text": "has", "correct": false },
+        { "text": "contains", "correct": false },
+        { "text": "exists", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all built-in functions in Python:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "print()", "correct": true },
+        { "text": "len()", "correct": true },
+        { "text": "echo()", "correct": false },
+        { "text": "int()", "correct": true }
+      ]
+    },
+    {
+      "text": "What will be the output of the following code?\nprint(10 // 3)",
+      "type": "text",
+      "answer": "3"
+    },
+    {
+      "text": "Which keyword is used to define an anonymous function in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "lambda", "correct": true },
+        { "text": "def", "correct": false },
+        { "text": "func", "correct": false },
+        { "text": "anon", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you remove an item from a list by its value?",
+      "type": "text",
+      "answer": "list.remove(value)"
+    },
+    {
+      "text": "Which of these operators is used for exponentiation in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "**", "correct": true },
+        { "text": "^", "correct": false },
+        { "text": "exp", "correct": false },
+        { "text": "pow", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all false values in Python:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "0", "correct": true },
+        { "text": "[]", "correct": true },
+        { "text": "None", "correct": true },
+        { "text": "1", "correct": false }
+      ]
+    },
+    {
+      "text": "What will be the output of the following code?\nprint('Hello' + ' World')",
+      "type": "text",
+      "answer": "Hello World"
+    },
+    {
+      "text": "Which of these can be used to iterate over a list in Python?",
+      "type": "radio",
+      "answers": [
+        { "text": "for", "correct": true },
+        { "text": "foreach", "correct": false },
+        { "text": "loop", "correct": false },
+        { "text": "while", "correct": true }
+      ]
+    },
+    {
+      "text": "What does the following code do?\nx = [i for i in range(5)]",
+      "type": "text",
+      "answer": "Creates a list of numbers from 0 to 4"
+    },
+    {
+      "text": "How do you open a file named 'data.txt' for reading in Python?",
+      "type": "text",
+      "answer": "open('data.txt', 'r')"
+    },
+    {
+      "text": "Which of these statements is used to skip the rest of the code inside a loop for the current iteration?",
+      "type": "radio",
+      "answers": [
+        { "text": "continue", "correct": true },
+        { "text": "break", "correct": false },
+        { "text": "skip", "correct": false },
+        { "text": "pass", "correct": false }
+      ]
+    }
+  ]
+}

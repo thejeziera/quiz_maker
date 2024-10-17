@@ -1,0 +1,220 @@
+{
+  "title": "Logic Puzzle For Kids",
+  "questions": [
+    {
+      "text": "If there are three apples and you take away two, how many do you have?",
+      "type": "text",
+      "answer": "Two"
+    },
+    {
+      "text": "What comes next in the sequence: 1, 4, 9, 16, ...?",
+      "type": "text",
+      "answer": "25"
+    },
+    {
+      "text": "Which of these numbers is the odd one out? 2, 3, 5, 7, 9, 11",
+      "type": "radio",
+      "answers": [
+        { "text": "9", "correct": true },
+        { "text": "3", "correct": false },
+        { "text": "7", "correct": false },
+        { "text": "11", "correct": false }
+      ]
+    },
+    {
+      "text": "Which of the following is a palindrome?",
+      "type": "radio",
+      "answers": [
+        { "text": "level", "correct": true },
+        { "text": "table", "correct": false },
+        { "text": "chair", "correct": false },
+        { "text": "book", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all numbers that are divisible by 3:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "6", "correct": true },
+        { "text": "7", "correct": false },
+        { "text": "9", "correct": true },
+        { "text": "14", "correct": false }
+      ]
+    },
+    {
+      "text": "If two's company, and three's a crowd, what are four and five?",
+      "type": "text",
+      "answer": "Nine"
+    },
+    {
+      "text": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+      "type": "text",
+      "answer": "$0.05"
+    },
+    {
+      "text": "Which word is an anagram of 'listen'?",
+      "type": "radio",
+      "answers": [
+        { "text": "silent", "correct": true },
+        { "text": "nestle", "correct": false },
+        { "text": "stolen", "correct": false },
+        { "text": "tinsel", "correct": true }
+      ]
+    },
+    {
+      "text": "Which of these is a logic gate?",
+      "type": "radio",
+      "answers": [
+        { "text": "AND", "correct": true },
+        { "text": "IF", "correct": false },
+        { "text": "THEN", "correct": false },
+        { "text": "WITH", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all shapes that have four sides:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Square", "correct": true },
+        { "text": "Triangle", "correct": false },
+        { "text": "Rectangle", "correct": true },
+        { "text": "Pentagon", "correct": false }
+      ]
+    },
+    {
+      "text": "How many seconds are in an hour?",
+      "type": "text",
+      "answer": "3600"
+    },
+    {
+      "text": "If 5 cats can catch 5 mice in 5 minutes, how long will it take 100 cats to catch 100 mice?",
+      "type": "text",
+      "answer": "5 minutes"
+    },
+    {
+      "text": "Which of the following can be arranged into a five-letter English word?",
+      "type": "radio",
+      "answers": [
+        { "text": "HITRM", "correct": false },
+        { "text": "TIGER", "correct": true },
+        { "text": "JMPOT", "correct": false },
+        { "text": "WQLAE", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all animals that are mammals:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Dog", "correct": true },
+        { "text": "Frog", "correct": false },
+        { "text": "Cat", "correct": true },
+        { "text": "Shark", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the next number in the pattern: 1, 1, 2, 3, 5, 8, ...?",
+      "type": "text",
+      "answer": "13"
+    },
+    {
+      "text": "How many months have 28 days?",
+      "type": "text",
+      "answer": "12"
+    },
+    {
+      "text": "I am an odd number. Take away one letter and I become even. What number am I?",
+      "type": "text",
+      "answer": "Seven"
+    },
+    {
+      "text": "Which of the following is a prime number?",
+      "type": "radio",
+      "answers": [
+        { "text": "9", "correct": false },
+        { "text": "11", "correct": true },
+        { "text": "15", "correct": false },
+        { "text": "20", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the prime numbers:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "3", "correct": true },
+        { "text": "4", "correct": false },
+        { "text": "7", "correct": true },
+        { "text": "9", "correct": false }
+      ]
+    },
+    {
+      "text": "If you have a basket with five apples and you take away three, how many apples do you have left in the basket?",
+      "type": "text",
+      "answer": "Two"
+    },
+    {
+      "text": "What letter comes next in the series? D, G, J, M, ...",
+      "type": "text",
+      "answer": "P"
+    },
+    {
+      "text": "Which word can be added to 'horse', 'spoon', and 'night' to form a new word or phrase?",
+      "type": "radio",
+      "answers": [
+        { "text": "back", "correct": true },
+        { "text": "shoe", "correct": false },
+        { "text": "tree", "correct": false },
+        { "text": "clock", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the even numbers:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "2", "correct": true },
+        { "text": "3", "correct": false },
+        { "text": "8", "correct": true },
+        { "text": "11", "correct": false }
+      ]
+    },
+    {
+      "text": "What comes next in this sequence? A, C, F, J, ...",
+      "type": "text",
+      "answer": "O"
+    },
+    {
+      "text": "If 1 = 5, 2 = 10, 3 = 15, 4 = 20, then what is 5 = ?",
+      "type": "text",
+      "answer": "1"
+    },
+    {
+      "text": "Which one of the following is not a fruit?",
+      "type": "radio",
+      "answers": [
+        { "text": "Apple", "correct": false },
+        { "text": "Banana", "correct": false },
+        { "text": "Carrot", "correct": true },
+        { "text": "Grape", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all colors that are primary colors:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Red", "correct": true },
+        { "text": "Green", "correct": false },
+        { "text": "Blue", "correct": true },
+        { "text": "Yellow", "correct": true }
+      ]
+    },
+    {
+      "text": "Which direction is opposite of northeast?",
+      "type": "text",
+      "answer": "Southwest"
+    },
+    {
+      "text": "If 7 is 13%, what is 14?",
+      "type": "text",
+      "answer": "26%"
+    }
+  ]
+}

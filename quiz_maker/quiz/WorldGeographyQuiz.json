@@ -1,0 +1,250 @@
+{
+  "title": "World Geography Quiz",
+  "questions": [
+    {
+      "text": "What is the capital of France?",
+      "type": "radio",
+      "answers": [
+        { "text": "Paris", "correct": true },
+        { "text": "London", "correct": false },
+        { "text": "Berlin", "correct": false },
+        { "text": "Madrid", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the countries that are in Africa:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Nigeria", "correct": true },
+        { "text": "Kenya", "correct": true },
+        { "text": "Brazil", "correct": false },
+        { "text": "Egypt", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the longest river in the world?",
+      "type": "text",
+      "answer": "Nile"
+    },
+    {
+      "text": "Which country has the largest population?",
+      "type": "radio",
+      "answers": [
+        { "text": "India", "correct": false },
+        { "text": "United States", "correct": false },
+        { "text": "China", "correct": true },
+        { "text": "Russia", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all countries that are part of South America:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Argentina", "correct": true },
+        { "text": "Chile", "correct": true },
+        { "text": "Mexico", "correct": false },
+        { "text": "Brazil", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the smallest country in the world by area?",
+      "type": "text",
+      "answer": "Vatican City"
+    },
+    {
+      "text": "Which ocean is the largest?",
+      "type": "radio",
+      "answers": [
+        { "text": "Atlantic Ocean", "correct": false },
+        { "text": "Indian Ocean", "correct": false },
+        { "text": "Pacific Ocean", "correct": true },
+        { "text": "Arctic Ocean", "correct": false }
+      ]
+    },
+    {
+      "text": "Which countries are in the European Union? (Select all that apply)",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Germany", "correct": true },
+        { "text": "Norway", "correct": false },
+        { "text": "France", "correct": true },
+        { "text": "Switzerland", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the highest mountain in the world?",
+      "type": "text",
+      "answer": "Mount Everest"
+    },
+    {
+      "text": "Which country is known as the Land of the Rising Sun?",
+      "type": "radio",
+      "answers": [
+        { "text": "Japan", "correct": true },
+        { "text": "China", "correct": false },
+        { "text": "South Korea", "correct": false },
+        { "text": "Thailand", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the countries that border Germany:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "France", "correct": true },
+        { "text": "Poland", "correct": true },
+        { "text": "Spain", "correct": false },
+        { "text": "Austria", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the largest desert in the world?",
+      "type": "text",
+      "answer": "Sahara"
+    },
+    {
+      "text": "Which of these countries is landlocked?",
+      "type": "radio",
+      "answers": [
+        { "text": "Australia", "correct": false },
+        { "text": "Switzerland", "correct": true },
+        { "text": "Italy", "correct": false },
+        { "text": "South Africa", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the countries that are islands:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Iceland", "correct": true },
+        { "text": "Japan", "correct": true },
+        { "text": "Norway", "correct": false },
+        { "text": "Sri Lanka", "correct": true }
+      ]
+    },
+    {
+      "text": "Which country is both in Europe and Asia?",
+      "type": "text",
+      "answer": "Russia"
+    },
+    {
+      "text": "Which country is famous for its fjords?",
+      "type": "radio",
+      "answers": [
+        { "text": "Norway", "correct": true },
+        { "text": "Sweden", "correct": false },
+        { "text": "Denmark", "correct": false },
+        { "text": "Finland", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all countries that use the Euro as currency:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Germany", "correct": true },
+        { "text": "United Kingdom", "correct": false },
+        { "text": "Spain", "correct": true },
+        { "text": "Poland", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Australia?",
+      "type": "text",
+      "answer": "Canberra"
+    },
+    {
+      "text": "Which is the largest continent by area?",
+      "type": "radio",
+      "answers": [
+        { "text": "Africa", "correct": false },
+        { "text": "Asia", "correct": true },
+        { "text": "Europe", "correct": false },
+        { "text": "North America", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all countries that have a coastline on the Mediterranean Sea:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Italy", "correct": true },
+        { "text": "Austria", "correct": false },
+        { "text": "Spain", "correct": true },
+        { "text": "Turkey", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the official language of Brazil?",
+      "type": "text",
+      "answer": "Portuguese"
+    },
+    {
+      "text": "Which country is home to the Amazon Rainforest?",
+      "type": "radio",
+      "answers": [
+        { "text": "Brazil", "correct": true },
+        { "text": "Peru", "correct": false },
+        { "text": "Colombia", "correct": false },
+        { "text": "Venezuela", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all countries that have more than one official language:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Canada", "correct": true },
+        { "text": "United States", "correct": false },
+        { "text": "Belgium", "correct": true },
+        { "text": "Japan", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country is known for the Eiffel Tower?",
+      "type": "text",
+      "answer": "France"
+    },
+    {
+      "text": "Which of these countries is part of Scandinavia?",
+      "type": "radio",
+      "answers": [
+        { "text": "Sweden", "correct": true },
+        { "text": "Germany", "correct": false },
+        { "text": "Netherlands", "correct": false },
+        { "text": "Iceland", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all countries located in the Southern Hemisphere:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Australia", "correct": true },
+        { "text": "Argentina", "correct": true },
+        { "text": "India", "correct": false },
+        { "text": "Brazil", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the currency used in Japan?",
+      "type": "text",
+      "answer": "Yen"
+    },
+    {
+      "text": "Which country is famous for its pyramids?",
+      "type": "radio",
+      "answers": [
+        { "text": "Mexico", "correct": false },
+        { "text": "Egypt", "correct": true },
+        { "text": "Peru", "correct": false },
+        { "text": "India", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all countries that are part of the United Kingdom:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "England", "correct": true },
+        { "text": "Scotland", "correct": true },
+        { "text": "Ireland", "correct": false },
+        { "text": "Wales", "correct": true }
+      ]
+    }
+  ]
+}

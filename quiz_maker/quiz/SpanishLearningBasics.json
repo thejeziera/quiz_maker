@@ -1,0 +1,215 @@
+{
+  "title": "Spanish Learning Basics",
+  "questions": [
+    {
+      "text": "What is the Spanish word for 'Hello'?",
+      "type": "text",
+      "answer": "Hola"
+    },
+    {
+      "text": "Select all the correct translations for 'Thank you':",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Gracias", "correct": true },
+        { "text": "Merci", "correct": false },
+        { "text": "Danke", "correct": false },
+        { "text": "Gracias a ti", "correct": true }
+      ]
+    },
+    {
+      "text": "How do you say 'Goodbye' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Adiós", "correct": true },
+        { "text": "Hola", "correct": false },
+        { "text": "Gracias", "correct": false },
+        { "text": "Buen día", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the Spanish word for 'Please'?",
+      "type": "text",
+      "answer": "Por favor"
+    },
+    {
+      "text": "Select all colors that translate correctly into Spanish:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Red - Rojo", "correct": true },
+        { "text": "Blue - Azul", "correct": true },
+        { "text": "Green - Verde", "correct": true },
+        { "text": "Purple - Azul", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you say 'Good morning' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Buenos días", "correct": true },
+        { "text": "Buenas noches", "correct": false },
+        { "text": "Buenas tardes", "correct": false },
+        { "text": "Hola", "correct": false }
+      ]
+    },
+    {
+      "text": "Translate 'Cat' into Spanish:",
+      "type": "text",
+      "answer": "Gato"
+    },
+    {
+      "text": "Which of the following means 'How are you?' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "¿Cómo estás?", "correct": true },
+        { "text": "¿Dónde estás?", "correct": false },
+        { "text": "¿Qué tal?", "correct": true },
+        { "text": "¿Quién eres?", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the correct translations for 'I am happy':",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Estoy feliz", "correct": true },
+        { "text": "Soy feliz", "correct": true },
+        { "text": "Estoy triste", "correct": false },
+        { "text": "Tengo hambre", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you say 'Water' in Spanish?",
+      "type": "text",
+      "answer": "Agua"
+    },
+    {
+      "text": "What is the Spanish word for 'Dog'?",
+      "type": "text",
+      "answer": "Perro"
+    },
+    {
+      "text": "Which of these is the correct translation for 'Family' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Familia", "correct": true },
+        { "text": "Famiglia", "correct": false },
+        { "text": "Familiar", "correct": false },
+        { "text": "Famile", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you say 'Excuse me' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Perdón", "correct": true },
+        { "text": "Por favor", "correct": false },
+        { "text": "Gracias", "correct": false },
+        { "text": "Buen día", "correct": false }
+      ]
+    },
+    {
+      "text": "Translate 'Car' into Spanish:",
+      "type": "text",
+      "answer": "Coche"
+    },
+    {
+      "text": "Which of these means 'I need help' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Necesito ayuda", "correct": true },
+        { "text": "Quiero agua", "correct": false },
+        { "text": "Estoy cansado", "correct": false },
+        { "text": "Tengo hambre", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all fruits that are translated correctly:",
+      "type": "checkbox",
+      "answers": [
+        { "text": "Apple - Manzana", "correct": true },
+        { "text": "Banana - Plátano", "correct": true },
+        { "text": "Orange - Naranja", "correct": true },
+        { "text": "Pear - Perro", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the Spanish word for 'Friend'?",
+      "type": "text",
+      "answer": "Amigo"
+    },
+    {
+      "text": "How do you say 'I am hungry' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Tengo hambre", "correct": true },
+        { "text": "Estoy feliz", "correct": false },
+        { "text": "Estoy cansado", "correct": false },
+        { "text": "Quiero comida", "correct": false }
+      ]
+    },
+    {
+      "text": "Translate 'House' into Spanish:",
+      "type": "text",
+      "answer": "Casa"
+    },
+    {
+      "text": "What is the Spanish word for 'Book'?",
+      "type": "text",
+      "answer": "Libro"
+    },
+    {
+      "text": "How do you say 'See you later' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Hasta luego", "correct": true },
+        { "text": "Buenos días", "correct": false },
+        { "text": "Adiós", "correct": false },
+        { "text": "Nos vemos", "correct": false }
+      ]
+    },
+    {
+      "text": "Select all the correct translations for 'The boy':",
+      "type": "checkbox",
+      "answers": [
+        { "text": "El niño", "correct": true },
+        { "text": "La niña", "correct": false },
+        { "text": "El chico", "correct": true },
+        { "text": "La chica", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the Spanish word for 'Teacher'?",
+      "type": "text",
+      "answer": "Maestro"
+    },
+    {
+      "text": "Translate 'Food' into Spanish:",
+      "type": "text",
+      "answer": "Comida"
+    },
+    {
+      "text": "Which of these means 'I am tired' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Estoy cansado", "correct": true },
+        { "text": "Estoy feliz", "correct": false },
+        { "text": "Tengo hambre", "correct": false },
+        { "text": "Estoy perdido", "correct": false }
+      ]
+    },
+    {
+      "text": "How do you say 'My name is' in Spanish?",
+      "type": "text",
+      "answer": "Me llamo"
+    },
+    {
+      "text": "Which of these words means 'Night' in Spanish?",
+      "type": "radio",
+      "answers": [
+        { "text": "Noche", "correct": true },
+        { "text": "Día", "correct": false },
+        { "text": "Tarde", "correct": false },
+        { "text": "Mañana", "correct": false }
+      ]
+    }
+  ]
+}
