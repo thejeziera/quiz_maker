@@ -13,14 +13,18 @@
 ## Getting Started
 
 ### For Users
-If you just want to use **Quiz Manager** without modifying the code, please visit the [latest release](https://github.com/thejeziera/quiz_maker/releases) and download the zip file. Extract it and open `index.html` in your browser to start using Quiz Manager.
+If you just want to use **Quiz Manager** without modifying the code, please visit the [latest release](https://github.com/thejeziera/quiz_maker/releases) and download the zip file. After downloading:
+
+1. **Extract the Zip File**: Unzip the downloaded file to a location of your choice.
+2. **Run the Application**: Open `index.html` in your browser to start using Quiz Manager.
+3. **Optional - Explore Sample Quizzes**: Check out the `quiz` directory for three sample quizzes to help you get started.
 
 ### For Developers
 To get started with **Quiz Manager**, follow these steps:
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your-username/quiz-manager.git
+   git clone https://github.com/thejeziera/quiz_maker.git
    ```
 2. **Open the Project in Your Preferred Editor** - You can use tools like WebStorm, VSCode, or even a basic text editor to explore and modify the project.
 3. **Run the Project Locally** - Open `index.html` in your browser to start using Quiz Manager.
